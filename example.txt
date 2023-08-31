@@ -1,0 +1,119 @@
+   
+Laboratory Activity: Introduction to Git and GitHub
+
+**Objective:** 
+Introduce students to the fundamental concepts of version control using Git and collaborative development with GitHub.
+
+**Materials:**
+- Computers with Git and GitHub accounts
+- Command-line interface
+- Text editor (e.g., Visual Studio Code) 
+
+
+**Activity Steps:** 
+
+**Step 1: Set Up Git and GitHub**
+1. Check if Git is installed: `git --version`
+2. If not installed, install https://git-scm.com/download/win
+ 
+3. Create a Github account. 
+ 
+
+
+**Step 2: Git Basics**
+1. Create a new directory: `mkdir git-intro`
+2. Move into the directory: `cd git-intro`
+3. Initialize a Git repository: `git init` 
+4. Create a new text file: `touch README.md`  
+5. Add content to README.md: "Introduction to Git and GitHub." 
+6. Stage the file: `git add README.md`
+7. Commit the changes: `git commit -m "Initial commit"`
+ 
+ 
+
+**Step 3: Collaborative Development on GitHub**
+1.	Create a new repository on GitHub (without initializing a README).
+ 
+2. Link the local repository to the remote repository: `git remote add origin <repository_url>`
+3. Push the initial commit to GitHub: `git push -u origin master`
+ 
+ 
+
+
+**Step 4: Working with Branches**
+1. Create a new branch: `git checkout -b feature-branch`
+2. Open README.md and add more content.
+3. Stage and commit the changes on the branch.
+4. Push the branch to GitHub: `git push origin feature-branch`
+ 
+
+**Step 5: Pull Requests on GitHub**
+1. On GitHub, create a pull request for the `feature-branch` to be merged into `master`.
+2. Review the pull request, add comments if necessary.
+ 
+ 
+2.	Merge the pull request.
+ 
+3.	Fetch the changes to the local repository: `git pull origin master`
+ 
+
+**Step 6: Clone and Collaborate**
+1.	Choose a partner and have one of you create a new repository on GitHub.
+ ¬¬
+2. The other person clones the repository: `git clone <repository_url>`
+3. Collaborate by creating branches, making changes, and creating pull requests.
+
+
+
+
+Name: Austria, Marvin Enrique		Section: INF211	Date: 9-01-23
+
+Laboratory Activity: Introduction to Git and GitHub
+
+What is the purpose of a pull request on GitHub, and how does it facilitate collaborative development?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Explain the difference between a local Git repository and a remote repository on GitHub. How do they interact?
+
+
+
+
+
+
+
+
+
+
+
+
+
+Walk through the process of creating a new branch, making changes on that branch, and then merging those changes back into the main branch using Git and GitHub.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
